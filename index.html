@@ -113,6 +113,7 @@
         charY = 200;
         charX = 190;
         debriSpread = 10;
+        fallSpeed = 2;
         background.forEach((e) => {
           e.remove();
         });
@@ -250,7 +251,7 @@
               }
             }
           });
-        }, 10);
+        }, 5);
         if (gameRestart) {
           return;
         }
